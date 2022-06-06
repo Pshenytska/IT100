@@ -201,43 +201,6 @@ header {
     width: calc(100% + 3.5em);
   }
 }
-
-/* My services section */
-.services {
-  margin-bottom: 4em;
-  
-}
-.my-services {
-  background-color: var(--clr-dark);
-  background-size: cover;
-  background-image: url(../img/services-bg.jpg);
-  background-blend-mode: multiply;
-  color: var(--clr-light);
-  text-align: center;
-}
-
-.section__title--services {
-  color: var(--clr-accent);
-  position: relative;
-}
-.section__title--services::after {
-  content: "";
-  display: block;
-  width: 2em;
-  height: 1px;
-  margin: 0.5em auto 1em;
-  background: var(--clr-light);
-  opacity: 0.25;
-}
-@media (min-width: 800px) {
-  .services {
-    display: flex;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /* about me section */
 
 .about-me {
@@ -311,20 +274,8 @@ header {
 .social-list__item {
   margin: 0 0.5;
 }
-.social-list__link {
-  padding: 1em;
-}
-
-.contact-form {
-  text-align: center;
-  background-image: url("https://media.giphy.com/media/2UCzsg3w4xQ2wNEB1g/giphy.gif");
-  background-size: cover;
-}
 
 .subheader {
   color: var(--clr-light);
   text-align: center;
-}
-.contact-feedback {
-  text-anchor: var(--clr-light);
 }

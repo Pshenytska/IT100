@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project | IT 100</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body> <!--main page and navigation-->
+    <header>
+        <button onclick="myFunction()" class="btn-background">dark mode</button>
+        <h1 class="logo"><a href="https://seattlecentral.edu/">Seattle Central College - IT 100</a></h1>
+        </button>
+     </header>
+     <!--Introduction-->
+     <section class="intro" id="home">
+         <h1 class="section__title section__title--intro">Hi, there!<br><strong>Our group of students prepared a recipe blog!</strong></h1>
+         <p class="section__subtitle--intro">IT 100|Spring Quarter</p>
+         <img src="img/main.jpg" alt="Image of a project" class="intro__img"></section>
+
+     <!--About food-->
+     <section class="about-me" id="about">
+         <h2 class="section__title section__title--about">Lasagna</h2>
+         <p class="section__subtitle section__subtitle--about">Student Talana</p>
+        <div class="about-me__body">
+            <p>Lasagna originates from Italy. It is one of the best types of food that I love. I love the way that it tastes and how it can be filling. The fact that it can be maid in so many different ways amazes me. The taste envelops the mouth with the flavors of sauce, meat, cheese, and flat noodles layered together. This etiquette dish can also be made without meat, as well as being made with different types of sauce.<a href = "https://www.yummly.com/recipe/Classic-Lasagna-9044252?prm-v1">🔗Read more.</a></p>
+        </div>
+        <img src="img/lasagna.jpg" alt="Kate painting" class="about-me__img">
+    </section>
+
+    <!--About food-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Hum Bao</h2>
+        <p class="section__subtitle section__subtitle--about">Student Emily</p>
+       <div class="about-me__body">
+           <p>Hum Bao is a traditional dim sum dish from China. Dated back all the way from around 475- 221 B.C.E. There are many varieties of Hum Bao that can be found in Korea, Malaysia, Japan, and the Filipines as well. Bao is made from flour, water, sugar, milk, oil and yeast. The usual bread ingredients, where the difference is is how it is cooked. Instead of baking it in an oven it is steamed. For this reason they come out plump, fluffy and cloud-like fist sized dumplings. Hum bao is steamed with some sort of filling inside of it. Commonly barbecue pork but seasoned chicken and a vegetation option can also be found as well.<a href = "https://www.myrecipes.com/recipe/pork-hum-bao">🔗Read more.</a></p>
+       </div>
+       <img src="img/humbao.jpg" alt="Kate painting" class="about-me__img">
+   </section>
+
+<!--Footer-->
+<footer class="footer">
+    <a href="https://seattlecentral.edu/" class="footer--link">seattleccentral.edu</a>
+    <ul class="social-list">
+    
+    <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/SeattleFelineRescue/"><i class="fab fa-facebook"></i></a></li>
+    
+    <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/cats_of_instagram/?hl=en"><i class="fab fa-instagram"></i></a></li>
+    
+    
+    <li class="social-list__item"><a class="social-list__link" href="https://www.pinterest.com/pin/801851908660749194/"><i class="fab fa-pinterest-p"></i></a></li>
+    
+</ul>
+<p><small>&copy; 2022 by <a href="">IT 100, Group 2</a>, All Rights Reserved</p>
+
+</footer>
+<script src="js/index.js"></script>
+<script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</body>
+</html>

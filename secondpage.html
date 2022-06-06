@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name= "description" content="WEB PAGE CREATED BY IT 100 GROUP1 SPRING CLASS PROJECT">
+        <title>IT 100-Project Web Page</title>
+        <link href="css/styletwo.css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>WEB PAGE CREATED BY "IT 100" GROUP1 SPRING CLASS PROJECT</h1>
+    </header>
+        <h2>
+            SEAFOOD
+        </h2>
+        <p>
+            Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs (e.g. bivalve molluscs such as clams, oysters and mussels, and cephalopods such as octopus and squid), crustaceans (e.g. shrimp, crabs, and lobster), and echinoderms (e.g. sea cucumbers and sea urchins).
+        </p>
+        <p>
+            Historically, marine mammals such as cetaceans (whales and dolphins) as well as seals have been eaten as food, though that happens to a lesser extent in modern times. Edible sea plants such as some seaweeds and microalgae are widely eaten as sea vegetables around the world, especially in Asia.
+        </p>
+        <p>
+            Seafood is an important source of (animal) protein in many diets around the world, especially in coastal areas. Semi-vegetarians who consume seafood as the only source of meat are said to adhere to pescetarianism.
+        </p>
+        <p>
+            The harvesting of wild seafood is usually known as fishing or hunting, while the cultivation and farming of seafood is known as aquaculture and fish farming (in the case of fish). Most of the seafood harvest is consumed by humans, but a significant proportion is used as fish food to farm other fish or rear farm animals.
+        </p>
+        <a href= "https://en.wikipedia.org/wiki/Seafood"target="blank">CLICK- hyperlink</a></br>
+    </section>
+    <div id="change" class="contentRight" >
+        <img src="img/Seafood.JPG" alt = "Picture">
+        <ul>
+            <br>
+            <div>
+                GROUP MEMBERS
+            </div>
+            <li>Faris</li>
+            <li>Kazuya</li>
+            <li>Emily Berg </li>
+            <li>Talana Swinney</li>
+            <li>Veronika.Pshenytska </li>
+            <li>Name</li>
+        </ul>
+        <div class="btn" id="color" >
+                <button onclick=change()>Switch</button>
+            </button>
+        </div>
+    </div>
+    <footer>
+        THIS WEB PAGE IS CREATED BY-IT 100 SPRING CLASS GROUP1 ON 06/06/2022
+    </footer>
+    <script>
+        function change() {
+            let top = document.getElementById("change");
+            var backColor = document.body.style.backgroundColor;
+            document.body.style.backgroundColor = backColor === "rgb(47, 255, 203)" ? "rgba(240, 187, 118, 0.767)" : "rgb(47, 255, 203)";
+            top.classList.toggle("contentLeft");
+        };
+    </script>
+</body>
+</html>

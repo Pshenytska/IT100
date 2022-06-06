@@ -1,0 +1,91 @@
+body {
+    width:90%;
+    margin: auto;
+    background-color: lightblue;
+    font-size: 12px;
+}
+  h1 {
+     background-color: #78EB2C;
+     font-weight: bold;
+     text-align: center;
+     font-family: Helvetica, Arial, sans-serif;
+     letter-spacing: 1.5mm;
+     vertical-align: auto;
+}
+  h2 {
+     background-color: lightgreen;
+     font-family: Helvetica, Arial, sans-serif;
+     text-align: center;
+     color: black;
+     letter-spacing: 5mm;
+     font-weight: bolder;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+    padding: 3px;
+    border: 2px;
+    font-size: small;
+}
+  a {
+     font-style: italic;
+     font-weight: bolder;
+     text-decoration: none;
+     margin-right: 550px;
+     color:rgb(255, 0, 0);
+  }
+header{
+    min-height: 10px;
+}
+.contentRight{
+    border: 1px solid black;
+    min-height: 250px;
+    padding: 1em;
+}
+.contentRight img{
+    width: 550px;
+    height: 220px;
+    border-radius: 50px;
+    float: left;
+    margin: 1em;
+    margin-top: .2em;
+    padding: 20px;
+}
+.contentRight ul{
+    text-align: justify;
+    padding: 1em;
+    align-self: right;
+    border-radius: 2px ;
+    margin: 1em;
+    margin-top: 5em;
+    padding: 20px;
+}
+.btn{
+    text-align: center;
+}
+.contentLeft{
+    border: 1px solid black;
+    min-height: 250px;
+    padding: 1em;
+}
+.contentLeft img{
+    width: 600px;
+    height: 230px;
+    border-radius: 50px ;
+    float: right;
+    margin: 2em;
+    margin-top: 0.025em;
+    padding: 20px;
+}
+.contentLeft ul{
+    text-align: justify;
+    padding: 0.25em;
+}
+footer{
+    min-height: 12px;
+    text-align: ustify;
+    padding: 0.03em;
+    margin: 5px;
+}
